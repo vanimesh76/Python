@@ -1,9 +1,10 @@
 import tweepy
 
-ckey="HhWUjXBm1NJExWPvHZoW3eoLk"
-csecret="tv0fl3w4ZVf1Pr3pswcMCMFn1j7pbkYDtmF1WMQf6F6NsyzF4m"
-atoken="2788308300-QACrn5MxOt95ZYwsbNzoGnGn02cyZDHPhYn3R5j"
-asecret="X4of0LonjMYaYAXT5aDFBx2hIWI9CMUMLKkWOzZVtZHx4"
+#use your own key's and tokens from twitter
+ckey="HhWUjXBm1NJExWPvHZoW3eoLkh"
+csecret="tv0fl3w4ZVf1Pr3pswcMCMFn1j7pbkYDtmF1WMQf6F6NsyzF4mh"
+atoken="2788308300-QACrn5MxOt95ZYwsbNzoGnGn02cyZDHPhYn3R5jh"
+asecret="X4of0LonjMYaYAXT5aDFBx2hIWI9CMUMLKkWOzZVtZHx4h"
 
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
